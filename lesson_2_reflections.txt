@@ -1,0 +1,5 @@
+# What happens when you initialize a repository? Why do you need to do it?
+* the .git folder is created, in which git will store the necessary (meta-)data for keeping track of the versioning.
+
+# How is the staging area different from the working directory and the repository? What value do you think it offers?
+* the staging area builds up a layer between the working directory and the repository allowing for fine granulated commits
