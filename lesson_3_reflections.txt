@@ -22,3 +22,7 @@
 * - not so many features you can use to get collaborate
 * + not so many features you can use but have to learn
 * - will become messy very fast
+
+# When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+* every time you don't want to risk breaking the master branch (new feature, fix a bug, testing another aproach...)
+* separating another version (for example a beta version) while the master branch stays the main version (for example the stable one)
