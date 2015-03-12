@@ -15,3 +15,10 @@
 
 # What is the benefit of having a copy of the last known state of the remote stored locally?
 * gives the possibility to easily merge with the changed remote repo once you have access to it again
+
+# How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+* Sync-services like Dropbox, email...
+* - no Versioning
+* - not so many features you can use to get collaborate
+* + not so many features you can use but have to learn
+* - will become messy very fast
