@@ -3,3 +3,7 @@
 * when you want to collaborate with others on this project
 * when you want to have an off-side backup of your project
 * when you work on different computers
+
+# Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+* you wnt to keep full control on your project; maybe there are changes in the remote repo you don't want to be made in your project/in another branch etc.
+* you want to be sure that there are no changes made on your local project which may interfere with changes you made
