@@ -3,3 +3,25 @@
 
 # How is the staging area different from the working directory and the repository? What value do you think it offers?
 * the staging area builds up a layer between the working directory and the repository allowing for fine granulated commits
+
+# How can you use the staging area to make sure you have one commit per logical change?
+* only add those files to the staging area which contain changes belonging to the same logical change (which might not be possible all the time)
+
+# What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+* separate bug fixes from new (maybe experimental) features
+* maintain different types of the same project, e. g. one stable and one experimental version
+
+# How do the diagrams help you visualize the branch structure?
+* the diagrams clearly show which commits different branches do have in common
+* the diagrams show at which point two commit-lines were split up/refusioned
+
+# What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+* two branches are refusioned -> the commit in which these two branches are put together has two parents, which is indicated by the diagram
+* this new commit includes the history of both branches
+
+# What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+* pros of auto merging
+	* faster
+* cons of auto merging
+	* may introduce conflicts which git dosn't recognize
+
