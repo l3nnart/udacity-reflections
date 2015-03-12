@@ -12,3 +12,6 @@
 * fork: 	a clone of a repository made on github; used to clone s. o. else's project to work with this an a base but maybe not to collaboate directly
 * clone: 	a copy of a repository, locally or remote; for example to get a remote repository to your local machine; collaboration intended
 * branch: 	to implement new features, to separate version with a different approach (e. g. stable vs. experimental), to test something without the risk of breaking the working code...
+
+# What is the benefit of having a copy of the last known state of the remote stored locally?
+* gives the possibility to easily merge with the changed remote repo once you have access to it again
